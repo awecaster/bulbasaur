@@ -1,0 +1,132 @@
+.header{
+  position:relative;
+
+}
+
+
+#logo {
+
+
+  width: 95px;
+  height: 95px;
+  position: absolute;
+
+  }
+
+
+#title1 {
+  margin-top: 0;
+  font-size: 300%;
+  text-align: center;
+  height: 100px;
+  font-family: 'Press Start 2P', cursive;
+
+}
+
+.nav {
+  position: absolute;
+  top: 100px;
+  width: 100%;
+  background-color: pink;
+
+}
+
+.nav ul {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+
+
+}
+
+.nav li {
+
+ padding: 0 20px 0 20px;
+ display: inline;
+
+ top: 1em;
+ background-color: pink;
+
+}
+
+a {
+  text-decoration: none;
+  color: purple;
+}
+
+.divheading {
+position:relative;
+background-color: grey;
+border-radius: 20px 20px 0px 0px;
+
+}
+
+body{background-color: green;
+border-style: solid;
+border-width: 3px;
+border-color: blue;
+margin: 0 200px 0 200px;
+width: 800px;
+border-radius: 20px 20px;
+
+}
+
+h4{
+  text-align: center;
+}
+
+#image {
+  float: left;
+  height: 150px;
+  margin-right: 15px;
+  position:relative;
+  bottom:20px;
+
+}
+
+#image2 {
+  float:right;
+  height: auto;
+  width: 50%;
+  border-radius: 20px 20px;
+  position:relative;
+  bottom:34px;
+}
+
+
+#image3 {
+  float: left;
+  height: 350px;
+  padding: 6px;
+}
+
+.para1 {
+  margin: 2em 2em 2em 2em;
+  background-color:rgba(217, 226, 50, 0.74);
+  border-radius: 20px 20px;
+}
+
+#p1 {
+  margin: 0 0 0 0;
+}
+
+.para2 {
+  margin: 2em 2em 2em 2em;
+  background-color:rgba(217, 226, 50, 0.74);
+  border-radius: 20px 20px;
+
+}
+
+#p2 {
+  margin-left: 9px;
+}
+
+#p3 {
+  margin: 6px;
+}
+
+footer{
+  background-color: pink;
+  text-align: center;
+  border-radius: 0px 0px 20px 20px;
+}
