@@ -3,6 +3,9 @@
 
 }
 
+img{
+  max-width: 100%;
+}
 
 #logo {
 
@@ -32,7 +35,7 @@
 }
 
 .nav ul {
-    padding: 0;
+
     margin: 0;
     text-align: center;
 
@@ -45,7 +48,7 @@
  display: inline;
 
  top: 1em;
- background-color: pink;
+
 
 }
 
@@ -62,11 +65,15 @@ border-radius: 20px 20px 0px 0px;
 }
 
 body{background-color: green;
+}
+
+#container{
 border-style: solid;
 border-width: 3px;
 border-color: blue;
-margin: 0 200px 0 200px;
-width: 800px;
+margin: 0 auto;
+width:100%;
+max-width: 800px;
 border-radius: 20px 20px;
 
 }
@@ -87,7 +94,7 @@ h4{
 #image2 {
   float:right;
   height: auto;
-  width: 50%;
+  width: 360px;
   border-radius: 20px 20px;
   position:relative;
   bottom:34px;
@@ -96,8 +103,8 @@ h4{
 
 #image3 {
   float: left;
-  height: 350px;
-  padding: 6px;
+  height: auto;
+  padding: 6px 6px 6px 0;
 }
 
 .para1 {
@@ -129,4 +136,32 @@ footer{
   background-color: pink;
   text-align: center;
   border-radius: 0px 0px 20px 20px;
+}
+
+@media only screen and (max-width: 533px){
+
+  .nav{
+    position:static;
+    border-radius: 20px 20px 0px 0px;
+  }
+  .nav li{
+    padding: 0;
+    display: block;
+  }
+
+  h1, #logo{
+    display: none;
+  }
+
+  .para1{
+    padding: 2%;
+  }
+
+  #image2{
+  margin-top: 10%;
+  float: none;
+}
+
+
+
 }
